@@ -1,21 +1,15 @@
-function ler_arquivo(fe) {
-    fe.file(function (arquivo) {
-        var reader = new FileReader();
+function pronto() {
 
-        reader.onloadend = function () {
-            console.log("Successful file read: " + this.result);
-        }:
-        console.log(arquivo);
-        reader.readAsText (arquivo)
-    })
-
-
-
-
-
+    var usuario = {
+        nome: "Tiago"
+        telefone: "3213121321"
+        email: "tiago@gmail.com"
+    };
 
 
 
 
 
 }
+
+document.addEventListener("deviceready", onDeviceReady, false);
